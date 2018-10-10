@@ -1,0 +1,267 @@
+﻿<!------------------------------------------------------------------------------
+          JingleX 2016 - Aleksandra Półtorak & Grzegorz Karwat ? 2016
+--------------------------------------------------------------------------------->
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta http-equiv="Content-type" content="text/html; charset=ISO-8859-2" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>JingleX</title>
+
+	<link rel="stylesheet" href="style.css" type="text/css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="skrypt.js"></script>
+<script src="http://cookiealert.sruu.pl/CookieAlert-latest.min.js"></script>
+<script>
+CookieAlert.init({
+	style: 'dark',
+	position: 'top',
+	opacity: '1',
+	displayTime: 0,
+	cookiePolicy: 'http://cookiealert.sruu.pl/o-ciasteczkach',
+	text: 'Ten serwis wykorzystuje pliki cookies. Korzystanie z witryny oznacza zgodę na ich zapis lub odczyt wg ustawień przeglądarki.'
+});
+</script>
+
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#00aba9">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+<div id="ciasteczka"></div>
+	<!-----------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------->
+
+	<nav>
+		<div id="mobile_menu">
+			<img src="img/menuicon.png">
+		</div>
+<div id="strona">	
+<div id="log">
+		<a href=""><img id="logo" src="img/logo.png"></a>
+	</div>
+		<ul id="menu">
+			<li id="podstr1" class="podstr1">
+				Strona główna
+			</li>
+			<li id="podstr2">
+				O nas
+			</li>
+
+			<li id="podstr3">
+				Portfolio
+			</li>
+
+			<li id="podstr4">
+				Cennik
+			</li>
+
+			<li id="podstr5">
+				Kontakt
+			</li>
+
+			<li id="podstr6">
+				Firma
+			</li>
+
+		</ul>
+	</nav>
+
+	<div id="bc">
+		<div id="section_title"></div>
+		<div id="bc2">
+			<div id="breadcr" class="podstr1">Strona główna</div>
+			<div id="breadcrumb"></div>
+		</div>
+	</div>
+	<div id="home_slider">
+		<ul id="hs">
+			<li id="slide1" class="slide"><p id="slide1_p1" class="slide_p1">JingleX</p><p id="slide1_p2" class="slide_p2">Tworzymy z pasją!</p><img id="slide1_img" class="slide_img" src="img/monitora.png"></li>
+			<li id="slide2" class="slide"><p id="slide2_p1" class="slide_p1">Profesjonalne jingle</p><p id="slide2_p2" class="slide_p2">Profesjonalny sprzęt, profesjonalne oprogramowanie</p><img id="slide2_img" class="slide_img" src="img/lapp.png"></li>
+			<li id="slide3" class="slide"><p id="slide3_p1" class="slide_p1">Poznaj nas</p><p id="slide3_p2" class="slide_p2">Jesteśmy na Facebooku, SoundCloud & YouTube</p><img id="slide3_img" class="slide_img" src="img/social3.png"></li>
+			<li id="slide4" class="slide"><p id="slide4_p1" class="slide_p1">Zamów u Nas,</p><p id="slide4_p2" class="slide_p2">bo z JingleX najlepiej</p><img id="slide4_img" class="slide_img" src="img/chooseus.png"></li>
+			<div id="slider_buttons">
+				<ul>
+					<li id="sl_button1" class="sl_button slider_active"></li>
+					<li id="sl_button2" class="sl_button"></li>
+					<li id="sl_button3" class="sl_button"></li>
+					<li id="sl_button4" class="sl_button"></li>
+				</ul>
+			</div>
+		</ul>
+	</div>
+<div id="sections">
+	<section id="section1">
+		<div id="home_icons">
+			<ul>
+				<li>
+					<img src="img/radio_icon.png">
+					<h3>Oprawy dźwiękowe</h3>
+					<p>Chcesz profesjonalną oprawę dźwiękową swojej stacji radiowej?<br>Wybierz naszą ofertę.</p>
+				</li><li>
+					<img src="img/ad_icon.png">
+					<h3>Spoty reklamowe</h3>
+				<p>Oprócz jingli radiowych tworzymy również spoty reklamowe.<br>Cena do ustalenia.</p>
+				</li><li>
+					<img src="img/ok_icon.png">
+					<h3>Rozwijamy się</h3>
+				<p>Jesteśmy otwarci na współpracę z Wami! Chcecie specjalne oferty? <br>Zgłoście się do nas.</p>
+				</li>
+			</ul>
+		</div>
+		<div id="home">
+			<h3>JingleX ? czyli o co chodzi?</h3>
+			<p>Tworzymy oprawy dźwiękowe dla stacji radiowych. Zajmujemy się również produkcją spotów reklamowych. Mogą Państwo z nami współpracować. Przyjmujemy każde wyzwanie. Rozwijamy się cały czas. Mamy nadzieję na owocną współpracę i na nawał pracy.</p>
+
+			<p>Pozdrawiamy i zapraszamy,
+				<br>
+				<i>Redakcja JingleX</i></p>
+		</div>
+		<div id="social_icons_home">
+			<a href="https://www.facebook.com/JingleX-101642526837787/" target="_blank">
+				<img src="img/fb.png"></a>
+			<a href="https://www.youtube.com/channel/UCnMXA5E0w3zx6I_4UBYqgVg" target="_blank">
+			<img src="img/yt.png"></a>
+			<a href="https://soundcloud.com/jinglex-1" target="_blank">
+			<img src="img/sc.png"></a>
+		</div>
+
+
+	</section>
+
+	<section id="section2">
+		<div id="onas">
+			<img src="img/logo_jinglex.png">
+			<div id="hello">
+				<p><strong>JingleX</strong> to nie tylko praca, ale również ogromna przyjemność. Nasza dawna nazwa to Radio FoX, które dobrze służyło i nam i naszym klientom. Teraz Radio FoX zmienia się w JingleX. Wychodzimy na przeciw nowym technologiom. Zapraszamy
+					do współpracy i pozdrawiamy!
+				</p>
+			</div>
+
+		</div>
+		<div id="onas_jinglex" class="separator2">
+			<p><strong>JingleX - Tworzymy z pasją!</strong></p>
+		</div>
+	</section>
+
+	<section id="section3">
+		<div id="portfolio">
+			<div id="soundcloud">
+				<iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/152627803&amp;color=0ba989&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+			</div>
+		</div>
+	</section>
+
+	<section id="section4">
+		<div id="cennik">
+			<p>Pakiet 5 jingli
+				<br><strong>100 złotych</strong></p>
+			<p>Pakiet 10 jingli
+				<br><strong>150 złotych</strong></p>
+			<p>Pakiet 11-18 jingli
+				<br><strong>200 złotych</strong></p>
+			<p>Ponad 18 jingli
+				<br><strong>CENA DO USTALENIA</strong></p>
+		</div>
+		<div id="cennik_info">
+			Interesuje Cię oferta spoza oprawy stacji lub chcesz dostać lepsze warunki? Napisz do nas, zawsze jest jakieś wyjście.
+			<br> Czekamy pod adresem <strong>jinglex@interia.eu</strong>
+		</div>
+		<div id="separator" class="separator">
+		</div>
+	</section>
+
+	<section id="section5">
+		<ul>
+			<li>
+				<div id="dane_kontakt">
+					<h3>JingleX</h3>
+					<p><img src="img/home.png">Kraków, Polska</p>
+					<p><img src="img/mail.png">jinglex@interia.eu</p>
+					<div id="social_icons">
+						<a href="https://www.facebook.com/JingleX-101642526837787/" target="_blank">
+							<img src="img/fb.png"></a>
+						<a href="https://www.youtube.com/channel/UCnMXA5E0w3zx6I_4UBYqgVg" target="_blank">
+						<img src="img/yt.png"></a>
+						<a href="https://soundcloud.com/jinglex-1" target="_blank">
+						<img src="img/sc.png"></a>
+					</div>
+				</div>
+			</li>
+			<li>
+				<form id="kontakt">
+					<h3>Napisz do nas</h3>
+					<input id="form_name" type="text" placeholder="Imię i nazwisko"></input>
+					<input id="form_email" type="text" placeholder="Adres E-Mail"></input>
+					<textarea id="form_text" rows="6" placeholder="Treść wiadomości"></textarea>
+					<input class="przycisk" id="wyslij_wiadomosc" type="button" value="Wyślij"></input>
+				</form>
+			</li>
+		</ul>
+		<div id="mapa">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d163974.59324505756!2d19.864447169459176!3d50.04690141854672!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471644c0354e18d1%3A0xb46bb6b576478abf!2zS3Jha8Ozdw!5e0!3m2!1spl!2spl!4v1453556348174"
+			frameborder="0" allowfullscreen></iframe>
+		</div>
+	</section>
+
+	<section id="section6">
+		<ul id="sklad">
+			<li class="firma">
+				<img src="img/gk2.jpg" alt="Grzegorz Karwat" />
+				<div class="st">
+					<h2>Właściciel</h2>
+					<a class="link" href="mailto:karwat.grzegorz@jinglex.esy.es">Grzegorz Karwat</a>
+				</div>
+
+			</li>
+			<li class="firma">
+				<img src="img/ap2.jpg" alt="Aleksandra Półtorak" />
+				<div class="st">
+					<h2>Redaktor Naczelny</h2>
+					<a class="link" href="mailto:poltorak.aleksandra@jinglex.esy.es">Aleksandra Półtorak</a>
+				</div>
+			</li>
+		</ul>
+		<div id="firma_info" class="separator2">
+			<ul>
+				<li><img src="img/mail.png">
+					<p><b>Grzegorz Karwat - kontakt</b></p>
+					<p>karwat.grzegorz@jinglex.esy.es</p>
+				</li>
+				<li><img src="img/mail.png">
+					<p><b>Aleksandra Półtorak - kontakt</b></p>
+					<p>poltorak.aleksandra@jinglex.esy.es</p>
+				</li>
+			</ul>
+		</div>
+	</section>
+</div>
+	<footer>
+		Strona jest własnością firmy JingleX. Wykonanie: Aleksandra Półtorak &#169; 2016
+	</footer>
+</div>
+</body>
+
+</html>						
